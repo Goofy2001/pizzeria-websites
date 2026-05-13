@@ -40,7 +40,7 @@ body {
   color: var(--dark);
   line-height: 1.7;
   position: relative;
-  font-size: clamp(0.95rem, 2vw, 1rem);
+  font-size: clamp(1.05rem, 1.8vw, 1.15rem);
 }
 
 /* ============================================
@@ -95,7 +95,7 @@ header {
   color: var(--dark);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   padding: 0.5rem 0;
   display: block;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -172,7 +172,7 @@ header {
   padding: 0.9rem 1.5rem;
   color: var(--dark);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: all 0.2s ease;
   position: relative;
 }
