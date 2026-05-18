@@ -1,3 +1,13 @@
+/**
+ * PIZZERIA WEBSITES - MAIN SERVER
+ * Doel: Express server voor statische pizzeria website met database integratie
+ * 
+ * Endpoints:
+ * - /api/health (database health check)
+ * - /api/submissions (submit orders/reservations)
+ * - Static HTML pages (home, contact, menu, locations, reservations, delivery, pickup)
+ */
+
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';

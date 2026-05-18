@@ -1,3 +1,9 @@
+/**
+ * DATABASE CONFIGURATION
+ * Doel: PostgreSQL connection pool voor pizzeria-websites
+ * Toggle: Lokale PostgreSQL of Supabase cloud database
+ */
+
 import dotenv from 'dotenv';
 import { Pool } from 'pg';
 
